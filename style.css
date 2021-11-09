@@ -1,0 +1,76 @@
+body {
+    background: rgb(85, 130, 167);
+}
+
+h1 {
+    height: 200px;
+    color: yellow;
+    text-shadow: rgb(85, 130, 167) 4px 2px, rgb(85, 130, 167) 4px 2px, rgb(85, 130, 167) 4px 2px, rgb(85, 130, 167) 4px 2px;
+    background-color: rgb(240, 48, 58);
+
+    text-align: center;
+    font-size: 150px;
+    font-weight: 900;
+    font-family: fantasy cursive;
+    font-style: normal;
+    width: 100%;
+    border: 15px white solid;
+    border-radius: 10px;
+    background-image: url(https://i.gifer.com/Rd6G.gif);
+
+}
+
+div {
+    margin: auto;
+}
+#list {
+ display: flex;
+    border: 10px;
+    margin: 20px solid;
+    padding: 10px;
+    background:rgb(247, 240, 149);
+    border: 15px white solid;
+    border-radius: 10px;
+    justify-content: space-around;
+    height: 100%;
+    flex-wrap: wrap;
+
+
+
+
+}
+#list li {
+
+    cursor: pointer;
+    border: 5px white solid;
+    border-radius: 5px;
+    justify-content: space-between;
+    width: 20%;
+    margin-bottom: 20px;
+
+
+}
+
+#list li :hover {
+        display: block;
+        transition: 0.2s;
+
+
+}
+
+#description {
+    background-color: rgb(85, 130, 167);
+
+}
+
+button {
+    display: none;
+}
+
+ul {
+     list-style-image : url(https://i.gifer.com/4xjS.gif);
+   }
+
+   img {
+       margin-left: 15px;
+   }
