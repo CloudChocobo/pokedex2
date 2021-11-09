@@ -1,7 +1,7 @@
 const list = document.getElementById("list");
 const description = document.getElementById("description");
 
-const api = "https://pokeapi.co/api/v2/pokemon?limit=150";
+const api = "https://pokeapi.co/api/v2/pokemon?limit=151";
 
 /**
  * Try to parse a response as JSON data
@@ -24,20 +24,17 @@ function emptyList () {
  * Create an item, fetch its data and setup event listener
  */
 function createItem (pokemon) {
-    
-    const item = document.createElement("li");
     const pics = document.createElement("img");
-
-    
+    const item = document.createElement("li");
 
     fetch(pokemon.url).then(transformToJson).then((data) => { //get API data
         
         pokemon = {};
-        //item.textContent = data.name; //this is about the pokemon name appearing or not next to the pic
+        item.textContent = data.name; //this is about the pokemon name appearing or not next to the pic
         list.appendChild(item); //li dans ul (put "item"(li) in "list"(ul) 
         item.appendChild(pics); //pics dans li
         pics.src = data.sprites.front_default;
-      
+        
 
         item.addEventListener("mouseover", (e) => {
             showDescription(data);            
