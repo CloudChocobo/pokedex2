@@ -26,22 +26,15 @@ function emptyList () {
 function createItem (pokemon) {
     
     const item = document.createElement("li");
-     
     const pics = document.createElement("img");
 
     
 
-    fetch(pokemon.url).then(transformToJson).then((data) => {
+    fetch(pokemon.url).then(transformToJson).then((data) => { //get API data
         
         pokemon = {};
-        /*pokemon['name'] = data.name;
-        pokemon['id'] = data.id;
-        pokemon['weight'] = data.weight;
-        pokemon['height'] = data.height;
-        pokemon['types'] = data.types;
-        pokemon['sprites'] = data.sprites;*/
-        item.textContent = data.name;
-        list.appendChild(item); //li dans ul
+        //item.textContent = data.name; //this is about the pokemon name appearing or not next to the pic
+        list.appendChild(item); //li dans ul (put "item"(li) in "list"(ul) 
         item.appendChild(pics); //pics dans li
         pics.src = data.sprites.front_default;
       

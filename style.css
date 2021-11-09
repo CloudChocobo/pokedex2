@@ -1,23 +1,22 @@
 body {
-    background: rgb(85, 130, 167);
+    /*background: rgb(188, 214, 238);*/
+    background: linear-gradient(rgb(188, 214, 238), rgb(84, 145, 202));
 }
 
 h1 {
     height: 200px;
-    color: yellow;
-    text-shadow: rgb(85, 130, 167) 4px 2px, rgb(85, 130, 167) 4px 2px, rgb(85, 130, 167) 4px 2px, rgb(85, 130, 167) 4px 2px;
-    background-color: rgb(240, 48, 58);
-
+    color: rgb(255, 255, 255);
+    text-shadow: rgb(220, 227, 233) 4px 2px, rgb(220, 227, 233), rgb(220, 227, 233) 4px 2px, rgb(220, 227, 233);
+    /*background-color: rgb(188, 214, 238);*/
+    background: linear-gradient(rgb(188, 214, 238), rgb(84, 145, 202));
     text-align: center;
     font-size: 150px;
     font-weight: 900;
     font-family: fantasy cursive;
     font-style: normal;
-    width: 100%;
-    border: 15px white solid;
+    width: 99%;
+    border: 10px white solid;
     border-radius: 10px;
-    background-image: url(https://i.gifer.com/Rd6G.gif);
-
 }
 
 div {
@@ -25,52 +24,47 @@ div {
 }
 #list {
  display: flex;
-    border: 10px;
+    border: 5px;
     margin: 20px solid;
-    padding: 10px;
-    background:rgb(247, 240, 149);
-    border: 15px white solid;
-    border-radius: 10px;
+    padding: 5px;
+    background: linear-gradient(rgb(188, 214, 238), rgb(84, 145, 202));
     justify-content: space-around;
     height: 100%;
     flex-wrap: wrap;
-
-
-
-
 }
 #list li {
-
     cursor: pointer;
     border: 5px white solid;
     border-radius: 5px;
-    justify-content: space-between;
-    width: 20%;
+    justify-content: center;
+    width: 15%;
     margin-bottom: 20px;
-
-
+    background: rgb(214, 226, 238);
 }
 
 #list li :hover {
         display: block;
-        transition: 0.2s;
-
-
+        transition: 0.1s;
 }
-
-#description {
-    background-color: rgb(85, 130, 167);
-
-}
-
-button {
-    display: none;
-}
-
 ul {
-     list-style-image : url(https://i.gifer.com/4xjS.gif);
-   }
+    list-style-type: none;
+}
+#description {
+    background-color: rgb(255, 255, 255);
+}
 
-   img {
-       margin-left: 15px;
-   }
+#description .show {
+    background-color: rgb(218, 108, 108);
+    font-size: 18px;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto
+}
+
+footer{
+    text-align: center;
+    color: white;
+}
