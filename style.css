@@ -48,7 +48,7 @@ h1 {
 
 #list li {
   cursor: pointer;
-  border: 3px white solid;
+  border: 1px white solid;
   border-radius: 5px;
   width: 8em;
   gap: 20px;
@@ -85,7 +85,7 @@ img {
   margin-right: auto;
 }
 button {
-  border: 3px white solid;
+  border: 1px white solid;
   background-color: rgb(214, 226, 238);
   border-radius: 5px;
 }
