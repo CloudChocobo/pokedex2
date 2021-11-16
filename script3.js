@@ -1,7 +1,7 @@
 const list = document.getElementById("list");
 const description = document.getElementById("description");
 
-const api = "https://pokeapi.co/api/v2/pokemon?limit=386";
+const api = "https://pokeapi.co/api/v2/pokemon?offset=251&limit=135";
 
 /**
  * Try to parse a response as JSON data
