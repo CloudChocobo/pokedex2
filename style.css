@@ -11,7 +11,7 @@ h1 {
   font-family: "fantasy cursive";
   font-size: 5em;
   padding: 20px;
-  border: 3px white solid;
+  border: 1px rgb(188, 214, 238) solid;
   border-radius: 15px;
   color: rgb(255, 255, 255);
   background: linear-gradient(rgb(188, 214, 238), rgb(84, 145, 202));
@@ -23,7 +23,7 @@ h1 {
   text-align: center;
   margin: 4em;
   padding: 10px;
-  border: 3px white solid;
+  border: 1px rgb(188, 214, 238) solid;
   border-radius: 15px;
   color: rgb(255, 255, 255);
   background: linear-gradient(rgb(188, 214, 238), rgb(84, 145, 202));
@@ -41,7 +41,7 @@ h1 {
   align-items: flex-start;
   margin: 4em;
   padding: 10px;
-  border: 3px white solid;
+  border: 1px rgb(188, 214, 238) solid;
   border-radius: 15px;
   box-shadow: -2px 2px 123px -70px;
 }
